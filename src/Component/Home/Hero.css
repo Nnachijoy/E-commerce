@@ -1,0 +1,81 @@
+.hero-container {
+    position: relative;
+  }
+
+  @media only screen and (max-width: 767px) {
+    .hero-container {
+      height: 400px; 
+    }
+  }
+
+  
+  .background-image {
+    width: 100%;
+    height: auto; 
+    display: block;
+  }
+  
+  .overlay-card {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    width: 643px;
+    height: 443px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .overlay-card {
+      top: 102%;
+      left: 50%;
+      width: 110%;
+    }
+
+  }
+  
+.overlay-card .card-body {
+    background-color: #FFF3E3;
+    border-radius: 10px;
+  }
+  
+  .overlay-card .card-title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 3px;
+    color: #333333;
+  }
+  
+  .overlay-card .card-subtitle {
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 65px;
+    color: #B88E2F;
+  }
+
+  @media only screen and (max-width: 767px) {
+    .overlay-card .card-subtitle {
+      font-size: 40px;
+      line-height: 45px; 
+      
+    }
+  }
+  
+  .overlay-card .card-text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color:  #333333;
+  }
+
+  .overlay-card .btn {
+    background-color: #B88E2F;
+    color: #FFFFFF;
+    border: none;
+    padding: 25px 72px 25px 72px; 
+  }
+  
+  
+
+  
