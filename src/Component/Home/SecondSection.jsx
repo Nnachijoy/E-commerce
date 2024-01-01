@@ -54,7 +54,7 @@ const SecondSection = () => {
       </div>
 
     
-      <div className="add-to-cart-btn">Add to Cart</div>
+      <div className="add-to-cart-btn">Add to Cart button</div>
 
       <div className="dark-overlay"></div>
 
